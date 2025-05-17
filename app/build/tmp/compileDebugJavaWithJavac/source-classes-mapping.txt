@@ -1,0 +1,6 @@
+com/example/workoutTimer/BuildConfig.java
+ com.example.workoutTimer.BuildConfig
+com/example/workoutTimer/databinding/ActivityMainBinding.java
+ com.example.workoutTimer.databinding.ActivityMainBinding
+com/example/workoutTimer/databinding/ActivitySettingsBinding.java
+ com.example.workoutTimer.databinding.ActivitySettingsBinding

@@ -1,0 +1,244 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [androidx.databinding:viewbinding:4.2.2] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/4cd49521a5b1f95322c43bcfbe5ed3ca/jetified-viewbinding-4.2.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/cb80b6936ede0ac2ed5f321c75049239/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.5.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/0db2c0cb3c9a4956453b76b173d3d7be/material-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/3e5567b1f9a138d1042934b0595eb617/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/5fae4bdd43344167d9312e46af4dfb05/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/110beef4c3c14a60695faa55bbe16010/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/67cfa1b140bb7da5d209b4637b5c97fd/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/9131afeca6f2e9417c27e37985187804/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/eda494f9876af778ff996483f408a099/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/cc74e57a439ae14b9523e31b45a97e85/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/db621f176cafd29d8cb88603db841fea/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/9002146a342dff394e0f58630f4762b5/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/db1649275196a20633360553dd49191d/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/d8c4d94cfaad98d6c9ab519485b40100/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/3743996d387a5399446204dc4f1bab67/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/df1d3cefdc43769ba8fff44d888055d3/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/8a05d4ec5c575d77bf1fac71c78f5b60/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/c7f22b0679b1100bae3be13d0cfad88c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/f612b250de4bf4397f947e31e7075db6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/c60c7ee96177be18afe551ca0796c740/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/c11ea189a6d15350e2849b00ecd27603/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/32c1f3d3b0fafb562f6a44cf6b90645b/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/6072fa5c7fe7e1d7d56a15631e8a31c1/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/285f51cb526a914371ed41d9e85f41a5/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/52204211025c38385b1f23e5e911fcff/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/cb8f1633c2f35282fa3d59d8bd669b22/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/132999512b3ba2cf0f7701586342e38c/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/4a5ab57a12de39b1dd29a74577a6a6d8/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/c5648dd075397fc433ffb56a05a51e82/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/5f9be96999c2ae88916878986ddd5313/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/bfbbab0fddfa65636465647e6ce5de01/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/064cb3c97bd10e5276e9ce29607b8e21/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/28ab156ab0897754eb4040447455da85/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/df4efe9d9026b64ccc8d11d799c0d8f8/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/ea0d88d3d20d03592dd4ff345908c05c/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/3b870f2008ffd80cbb6b1f9ec7d7d437/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/41099af1ffdfe07b09e8d7e730a3fe34/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/942be176182bbef0b78210a604876e27/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/9a20a98ca2872505c2ef83d4dc23c564/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/a92385d14d85f86c4c001bcfdb94eba5/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/0a392377907a2aecdcb75ebfd8bbfff4/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:6:22-63
+application
+ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:8:5-30:19
+MERGED from [com.google.android.material:material:1.5.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/0db2c0cb3c9a4956453b76b173d3d7be/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/0db2c0cb3c9a4956453b76b173d3d7be/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/3e5567b1f9a138d1042934b0595eb617/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/3e5567b1f9a138d1042934b0595eb617/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/db621f176cafd29d8cb88603db841fea/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/db621f176cafd29d8cb88603db841fea/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/6072fa5c7fe7e1d7d56a15631e8a31c1/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/6072fa5c7fe7e1d7d56a15631e8a31c1/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/c5648dd075397fc433ffb56a05a51e82/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/c5648dd075397fc433ffb56a05a51e82/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/5f9be96999c2ae88916878986ddd5313/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/5f9be96999c2ae88916878986ddd5313/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/bfbbab0fddfa65636465647e6ce5de01/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/bfbbab0fddfa65636465647e6ce5de01/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/6072fa5c7fe7e1d7d56a15631e8a31c1/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:10:9-41
+	android:allowBackup
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:12:9-50
+activity#com.example.workoutTimer.MainActivity
+ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:14:9-22:20
+	android:screenOrientation
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:17:13-49
+	android:exported
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:18:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.example.workoutTimer.SettingsActivity
+ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:24:9-28:52
+	android:screenOrientation
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:28:13-49
+	android:parentActivityName
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:27:13-55
+	android:exported
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml:25:13-45
+uses-sdk
+INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.2.2] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/4cd49521a5b1f95322c43bcfbe5ed3ca/jetified-viewbinding-4.2.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.2.2] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/4cd49521a5b1f95322c43bcfbe5ed3ca/jetified-viewbinding-4.2.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/cb80b6936ede0ac2ed5f321c75049239/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/cb80b6936ede0ac2ed5f321c75049239/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.5.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/0db2c0cb3c9a4956453b76b173d3d7be/material-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/0db2c0cb3c9a4956453b76b173d3d7be/material-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/3e5567b1f9a138d1042934b0595eb617/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/3e5567b1f9a138d1042934b0595eb617/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/5fae4bdd43344167d9312e46af4dfb05/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/5fae4bdd43344167d9312e46af4dfb05/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/110beef4c3c14a60695faa55bbe16010/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/110beef4c3c14a60695faa55bbe16010/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/67cfa1b140bb7da5d209b4637b5c97fd/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/67cfa1b140bb7da5d209b4637b5c97fd/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/9131afeca6f2e9417c27e37985187804/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/9131afeca6f2e9417c27e37985187804/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/eda494f9876af778ff996483f408a099/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/eda494f9876af778ff996483f408a099/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/cc74e57a439ae14b9523e31b45a97e85/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/cc74e57a439ae14b9523e31b45a97e85/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/db621f176cafd29d8cb88603db841fea/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/db621f176cafd29d8cb88603db841fea/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/9002146a342dff394e0f58630f4762b5/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/9002146a342dff394e0f58630f4762b5/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/db1649275196a20633360553dd49191d/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/db1649275196a20633360553dd49191d/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/d8c4d94cfaad98d6c9ab519485b40100/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/d8c4d94cfaad98d6c9ab519485b40100/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/3743996d387a5399446204dc4f1bab67/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/3743996d387a5399446204dc4f1bab67/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/df1d3cefdc43769ba8fff44d888055d3/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/df1d3cefdc43769ba8fff44d888055d3/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/8a05d4ec5c575d77bf1fac71c78f5b60/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/8a05d4ec5c575d77bf1fac71c78f5b60/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/c7f22b0679b1100bae3be13d0cfad88c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/c7f22b0679b1100bae3be13d0cfad88c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/f612b250de4bf4397f947e31e7075db6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/f612b250de4bf4397f947e31e7075db6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/c60c7ee96177be18afe551ca0796c740/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/c60c7ee96177be18afe551ca0796c740/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/c11ea189a6d15350e2849b00ecd27603/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/c11ea189a6d15350e2849b00ecd27603/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/32c1f3d3b0fafb562f6a44cf6b90645b/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/32c1f3d3b0fafb562f6a44cf6b90645b/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/6072fa5c7fe7e1d7d56a15631e8a31c1/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/6072fa5c7fe7e1d7d56a15631e8a31c1/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/285f51cb526a914371ed41d9e85f41a5/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/285f51cb526a914371ed41d9e85f41a5/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/52204211025c38385b1f23e5e911fcff/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/52204211025c38385b1f23e5e911fcff/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/cb8f1633c2f35282fa3d59d8bd669b22/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/cb8f1633c2f35282fa3d59d8bd669b22/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/132999512b3ba2cf0f7701586342e38c/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/132999512b3ba2cf0f7701586342e38c/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/4a5ab57a12de39b1dd29a74577a6a6d8/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/4a5ab57a12de39b1dd29a74577a6a6d8/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/c5648dd075397fc433ffb56a05a51e82/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/c5648dd075397fc433ffb56a05a51e82/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/5f9be96999c2ae88916878986ddd5313/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/5f9be96999c2ae88916878986ddd5313/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/bfbbab0fddfa65636465647e6ce5de01/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/bfbbab0fddfa65636465647e6ce5de01/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/064cb3c97bd10e5276e9ce29607b8e21/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/064cb3c97bd10e5276e9ce29607b8e21/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/28ab156ab0897754eb4040447455da85/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/28ab156ab0897754eb4040447455da85/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/df4efe9d9026b64ccc8d11d799c0d8f8/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/df4efe9d9026b64ccc8d11d799c0d8f8/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/ea0d88d3d20d03592dd4ff345908c05c/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/ea0d88d3d20d03592dd4ff345908c05c/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/3b870f2008ffd80cbb6b1f9ec7d7d437/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/3b870f2008ffd80cbb6b1f9ec7d7d437/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/41099af1ffdfe07b09e8d7e730a3fe34/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/41099af1ffdfe07b09e8d7e730a3fe34/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/942be176182bbef0b78210a604876e27/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/942be176182bbef0b78210a604876e27/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/9a20a98ca2872505c2ef83d4dc23c564/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/9a20a98ca2872505c2ef83d4dc23c564/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/a92385d14d85f86c4c001bcfdb94eba5/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/a92385d14d85f86c4c001bcfdb94eba5/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/0a392377907a2aecdcb75ebfd8bbfff4/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/0a392377907a2aecdcb75ebfd8bbfff4/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/db621f176cafd29d8cb88603db841fea/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/5f9be96999c2ae88916878986ddd5313/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/5f9be96999c2ae88916878986ddd5313/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/bfbbab0fddfa65636465647e6ce5de01/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/bfbbab0fddfa65636465647e6ce5de01/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/db621f176cafd29d8cb88603db841fea/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/db621f176cafd29d8cb88603db841fea/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/db621f176cafd29d8cb88603db841fea/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/db621f176cafd29d8cb88603db841fea/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/db621f176cafd29d8cb88603db841fea/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/db621f176cafd29d8cb88603db841fea/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/db621f176cafd29d8cb88603db841fea/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/5f9be96999c2ae88916878986ddd5313/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/5f9be96999c2ae88916878986ddd5313/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/5f9be96999c2ae88916878986ddd5313/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

@@ -1,0 +1,6 @@
+com/menti/workoutTimer/databinding/ActivitySettingsBinding.java
+ com.menti.workoutTimer.databinding.ActivitySettingsBinding
+com/menti/workoutTimer/BuildConfig.java
+ com.menti.workoutTimer.BuildConfig
+com/menti/workoutTimer/databinding/ActivityMainBinding.java
+ com.menti.workoutTimer.databinding.ActivityMainBinding

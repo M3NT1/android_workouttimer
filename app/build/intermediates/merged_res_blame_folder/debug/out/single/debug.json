@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/build/intermediates/res/merged/debug/layout_activity_settings.xml.flat",
+        "source": "/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/res/layout/activity_settings.xml"
+    }
+]

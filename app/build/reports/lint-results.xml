@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 4.2.2">
+
+    <issue
+        id="ObsoleteLintCustomCheck"
+        severity="Warning"
+        message="Lint found an issue registry (`androidx.appcompat.AppCompatIssueRegistry`) which requires a newer API level. That means that the custom lint checks are intended for a newer lint version; please upgrade"
+        category="Lint"
+        priority="10"
+        summary="Obsolete custom lint check"
+        explanation="Lint can be extended with &quot;custom checks&quot;: additional checks implemented by developers and libraries to for example enforce specific API usages required by a library or a company coding style guideline.&#xA;&#xA;The Lint APIs are not yet stable, so these checks may either cause a performance degradation, or stop working, or provide wrong results.&#xA;&#xA;This warning flags custom lint checks that are found to be using obsolete APIs and will need to be updated to run in the current lint environment.&#xA;&#xA;It may also flag issues found to be using a **newer** version of the API, meaning that you need to use a newer version of lint (or Android Studio or Gradle plugin etc) to work with these checks.">
+        <location
+            file="/Users/kasnyiklaszlo/.gradle/caches/transforms-2/files-2.1/5fae4bdd43344167d9312e46af4dfb05/appcompat-1.4.1/jars/lint.jar"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        severity="Warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details."
+        category="Correctness"
+        priority="6"
+        summary="Target SDK attribute is not targeting latest version"
+        explanation="When your application runs on a version of Android that is more recent than your `targetSdkVersion` specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the `targetSdkVersion` is less than 14, your app may get an option button in the UI.&#xA;&#xA;To fix this issue, set the `targetSdkVersion` to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: https://developer.android.com/reference/android/os/Build.VERSION_CODES.html as well as follow this guide:&#xA;https://developer.android.com/distribute/best-practices/develop/target-sdk.html"
+        url="https://developer.android.com/distribute/best-practices/develop/target-sdk.html"
+        urls="https://developer.android.com/distribute/best-practices/develop/target-sdk.html,https://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        errorLine1="        targetSdkVersion 33"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/build.gradle"
+            line="12"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib than 1.5.31 is available: 2.0.21"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &quot;org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/build.gradle"
+            line="39"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.core:core-ktx than 1.7.0 is available: 1.16.0"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;androidx.core:core-ktx:1.7.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/build.gradle"
+            line="40"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.4.1 is available: 1.7.0"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;androidx.appcompat:appcompat:1.4.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/build.gradle"
+            line="41"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of com.google.android.material:material than 1.5.0 is available: 1.12.0"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;com.google.android.material:material:1.5.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/build.gradle"
+            line="42"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.3 is available: 2.2.1"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;androidx.constraintlayout:constraintlayout:2.1.3&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/build.gradle"
+            line="43"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.3 is available: 1.2.1"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    androidTestImplementation &apos;androidx.test.ext:junit:1.1.3&apos;"
+        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/build.gradle"
+            line="45"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.4.0 is available: 3.6.1"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    androidTestImplementation &apos;androidx.test.espresso:espresso-core:3.4.0&apos;"
+        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/build.gradle"
+            line="46"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="LockedOrientationActivity"
+        severity="Warning"
+        message="Expecting `android:screenOrientation=&quot;unspecified&quot;` or `&quot;fullSensor&quot;` for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices"
+        category="Correctness"
+        priority="4"
+        summary="Incompatible screenOrientation value"
+        explanation="The `&lt;activity>` element should not be locked to any orientation so that users can take advantage of the multi-window environments and larger screens available on Android. To fix the issue, consider declaring the corresponding activity element with `screenOrientation=&quot;unspecified&quot;`or `&quot;fullSensor&quot;` attribute."
+        url="https://developer.android.com/topic/arc/window-management"
+        urls="https://developer.android.com/topic/arc/window-management"
+        errorLine1="            android:screenOrientation=&quot;portrait&quot;>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml"
+            line="17"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="LockedOrientationActivity"
+        severity="Warning"
+        message="Expecting `android:screenOrientation=&quot;unspecified&quot;` or `&quot;fullSensor&quot;` for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices"
+        category="Correctness"
+        priority="4"
+        summary="Incompatible screenOrientation value"
+        explanation="The `&lt;activity>` element should not be locked to any orientation so that users can take advantage of the multi-window environments and larger screens available on Android. To fix the issue, consider declaring the corresponding activity element with `screenOrientation=&quot;unspecified&quot;`or `&quot;fullSensor&quot;` attribute."
+        url="https://developer.android.com/topic/arc/window-management"
+        urls="https://developer.android.com/topic/arc/window-management"
+        errorLine1="            android:screenOrientation=&quot;portrait&quot; />"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml"
+            line="28"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="AllowBackup"
+        severity="Warning"
+        message="On SDK version 23 and up, your app data will be automatically backed up and restored on app install. Consider adding the attribute `android:fullBackupContent` to specify an `@xml` resource which configures which files to backup. More info: https://developer.android.com/training/backup/autosyncapi.html"
+        category="Security"
+        priority="3"
+        summary="AllowBackup/FullBackupContent Problems"
+        explanation="The `allowBackup` attribute determines if an application&apos;s data can be backed up and restored. It is documented at https://developer.android.com/reference/android/R.attr.html#allowBackup&#xA;&#xA;By default, this flag is set to `true` which means application data can be backed up and restored by the OS. Setting `allowBackup=&quot;false&quot;` opts the application out of being backed up and so users can&apos;t restore data related to it when they go through the device setup wizard.&#xA;&#xA;Allowing backups may have security consequences for an application. Currently `adb backup` allows users who have enabled USB debugging to copy application data off of the device. Once backed up, all application data can be read by the user. `adb restore` allows creation of application data from a source specified by the user. Following a restore, applications should not assume that the data, file permissions, and directory permissions were created by the application itself.&#xA;&#xA;To fix this warning, decide whether your application should support backup, and explicitly set `android:allowBackup=(true|false)&quot;`.&#xA;&#xA;If not set to false, and if targeting API 23 or later, lint will also warn that you should set `android:fullBackupContent` to configure auto backup."
+        url="https://developer.android.com/training/backup/autosyncapi.html"
+        urls="https://developer.android.com/training/backup/autosyncapi.html,https://developer.android.com/reference/android/R.attr.html#allowBackup"
+        errorLine1="    &lt;application"
+        errorLine2="     ~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml"
+            line="8"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        severity="Warning"
+        message="Possible overdraw: Root element paints background `@color/background_color` with a theme that also paints a background (inferred theme is `@style/Theme.WorkoutTimer`)"
+        category="Performance"
+        priority="3"
+        summary="Overdraw: Painting regions more than once"
+        explanation="If you set a background drawable on a root view, then you should use a custom theme where the theme background is null. Otherwise, the theme background will be painted first, only to have your custom background completely cover it; this is called &quot;overdraw&quot;.&#xA;&#xA;NOTE: This detector relies on figuring out which layouts are associated with which activities based on scanning the Java code, and it&apos;s currently doing that using an inexact pattern matching algorithm. Therefore, it can incorrectly conclude which activity the layout is associated with and then wrongly complain that a background-theme is hidden.&#xA;&#xA;If you want your custom background on multiple pages, then you should consider making a custom theme with your custom background and just using that theme instead of a root element background.&#xA;&#xA;Of course it&apos;s possible that your custom drawable is translucent and you want it to be mixed with the background. However, you will get better performance if you pre-mix the background with your drawable and use that resulting image or color as a custom theme background instead."
+        errorLine1="    android:background=&quot;@color/background_color&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/res/layout/activity_main.xml"
+            line="8"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        severity="Warning"
+        message="Possible overdraw: Root element paints background `@color/background_color` with a theme that also paints a background (inferred theme is `@style/Theme.WorkoutTimer`)"
+        category="Performance"
+        priority="3"
+        summary="Overdraw: Painting regions more than once"
+        explanation="If you set a background drawable on a root view, then you should use a custom theme where the theme background is null. Otherwise, the theme background will be painted first, only to have your custom background completely cover it; this is called &quot;overdraw&quot;.&#xA;&#xA;NOTE: This detector relies on figuring out which layouts are associated with which activities based on scanning the Java code, and it&apos;s currently doing that using an inexact pattern matching algorithm. Therefore, it can incorrectly conclude which activity the layout is associated with and then wrongly complain that a background-theme is hidden.&#xA;&#xA;If you want your custom background on multiple pages, then you should consider making a custom theme with your custom background and just using that theme instead of a root element background.&#xA;&#xA;Of course it&apos;s possible that your custom drawable is translucent and you want it to be mixed with the background. However, you will get better performance if you pre-mix the background with your drawable and use that resulting image or color as a custom theme background instead."
+        errorLine1="    android:background=&quot;@color/background_color&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/res/layout/activity_settings.xml"
+            line="8"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.time` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests=true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests=true."
+        errorLine1="    &lt;string name=&quot;time&quot;>Idő:&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/res/values/strings.xml"
+            line="15"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingApplicationIcon"
+        severity="Warning"
+        message="Should explicitly set `android:icon`, there is no default"
+        category="Usability:Icons"
+        priority="5"
+        summary="Missing application icon"
+        explanation="You should set an icon for the application as whole because there is no default. This attribute must be set as a reference to a drawable resource containing the image (for example `@drawable/icon`)."
+        url="https://developer.android.com/studio/publish/preparing#publishing-configure"
+        urls="https://developer.android.com/studio/publish/preparing#publishing-configure"
+        errorLine1="    &lt;application"
+        errorLine2="     ~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/AndroidManifest.xml"
+            line="8"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        severity="Warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        category="Usability"
+        priority="5"
+        summary="Button should be borderless"
+        explanation="Button bars typically use a borderless style for the buttons. Set the `style=&quot;?android:attr/buttonBarButtonStyle&quot;` attribute on each of the buttons, and set `style=&quot;?android:attr/buttonBarStyle&quot;` on the parent layout"
+        url="https://material.io/components/dialogs/"
+        urls="https://material.io/components/dialogs/"
+        errorLine1="        &lt;Button"
+        errorLine2="         ~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/res/layout/activity_main.xml"
+            line="109"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        severity="Warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        category="Usability"
+        priority="5"
+        summary="Button should be borderless"
+        explanation="Button bars typically use a borderless style for the buttons. Set the `style=&quot;?android:attr/buttonBarButtonStyle&quot;` attribute on each of the buttons, and set `style=&quot;?android:attr/buttonBarStyle&quot;` on the parent layout"
+        url="https://material.io/components/dialogs/"
+        urls="https://material.io/components/dialogs/"
+        errorLine1="        &lt;Button"
+        errorLine2="         ~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/res/layout/activity_main.xml"
+            line="118"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="Autofill"
+        severity="Warning"
+        message="Missing `autofillHints` attribute"
+        category="Usability"
+        priority="3"
+        summary="Use Autofill"
+        explanation="Specify an `autofillHints` attribute when targeting SDK version 26 or higher or explicitly specify that the view is not important for autofill. Your app can help an autofill service classify the data correctly by providing the meaning of each view that could be autofillable, such as views representing usernames, passwords, credit card fields, email addresses, etc.&#xA;&#xA;The hints can have any value, but it is recommended to use predefined values like &apos;username&apos; for a username or &apos;creditCardNumber&apos; for a credit card number. For a list of all predefined autofill hint constants, see the `AUTOFILL_HINT_` constants in the `View` reference at https://developer.android.com/reference/android/view/View.html.&#xA;&#xA;You can mark a view unimportant for autofill by specifying an `importantForAutofill` attribute on that view or a parent view. See https://developer.android.com/reference/android/view/View.html#setImportantForAutofill(int)."
+        url="https://developer.android.com/guide/topics/text/autofill.html"
+        urls="https://developer.android.com/guide/topics/text/autofill.html"
+        errorLine1="    &lt;EditText"
+        errorLine2="     ~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/res/layout/activity_settings.xml"
+            line="25"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="Autofill"
+        severity="Warning"
+        message="Missing `autofillHints` attribute"
+        category="Usability"
+        priority="3"
+        summary="Use Autofill"
+        explanation="Specify an `autofillHints` attribute when targeting SDK version 26 or higher or explicitly specify that the view is not important for autofill. Your app can help an autofill service classify the data correctly by providing the meaning of each view that could be autofillable, such as views representing usernames, passwords, credit card fields, email addresses, etc.&#xA;&#xA;The hints can have any value, but it is recommended to use predefined values like &apos;username&apos; for a username or &apos;creditCardNumber&apos; for a credit card number. For a list of all predefined autofill hint constants, see the `AUTOFILL_HINT_` constants in the `View` reference at https://developer.android.com/reference/android/view/View.html.&#xA;&#xA;You can mark a view unimportant for autofill by specifying an `importantForAutofill` attribute on that view or a parent view. See https://developer.android.com/reference/android/view/View.html#setImportantForAutofill(int)."
+        url="https://developer.android.com/guide/topics/text/autofill.html"
+        urls="https://developer.android.com/guide/topics/text/autofill.html"
+        errorLine1="    &lt;EditText"
+        errorLine2="     ~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/res/layout/activity_settings.xml"
+            line="49"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="Autofill"
+        severity="Warning"
+        message="Missing `autofillHints` attribute"
+        category="Usability"
+        priority="3"
+        summary="Use Autofill"
+        explanation="Specify an `autofillHints` attribute when targeting SDK version 26 or higher or explicitly specify that the view is not important for autofill. Your app can help an autofill service classify the data correctly by providing the meaning of each view that could be autofillable, such as views representing usernames, passwords, credit card fields, email addresses, etc.&#xA;&#xA;The hints can have any value, but it is recommended to use predefined values like &apos;username&apos; for a username or &apos;creditCardNumber&apos; for a credit card number. For a list of all predefined autofill hint constants, see the `AUTOFILL_HINT_` constants in the `View` reference at https://developer.android.com/reference/android/view/View.html.&#xA;&#xA;You can mark a view unimportant for autofill by specifying an `importantForAutofill` attribute on that view or a parent view. See https://developer.android.com/reference/android/view/View.html#setImportantForAutofill(int)."
+        url="https://developer.android.com/guide/topics/text/autofill.html"
+        urls="https://developer.android.com/guide/topics/text/autofill.html"
+        errorLine1="    &lt;EditText"
+        errorLine2="     ~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/res/layout/activity_settings.xml"
+            line="73"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        severity="Warning"
+        message="Hardcoded string &quot;00:00&quot;, should use `@string` resource"
+        category="Internationalization"
+        priority="5"
+        summary="Hardcoded text"
+        explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
+        errorLine1="        android:text=&quot;00:00&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/res/layout/activity_main.xml"
+            line="16"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        severity="Warning"
+        message="Hardcoded string &quot;30&quot;, should use `@string` resource"
+        category="Internationalization"
+        priority="5"
+        summary="Hardcoded text"
+        explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
+        errorLine1="        android:hint=&quot;30&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/res/layout/activity_settings.xml"
+            line="30"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        severity="Warning"
+        message="Hardcoded string &quot;15&quot;, should use `@string` resource"
+        category="Internationalization"
+        priority="5"
+        summary="Hardcoded text"
+        explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
+        errorLine1="        android:hint=&quot;15&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/res/layout/activity_settings.xml"
+            line="54"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        severity="Warning"
+        message="Hardcoded string &quot;4&quot;, should use `@string` resource"
+        category="Internationalization"
+        priority="5"
+        summary="Hardcoded text"
+        explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
+        errorLine1="        android:hint=&quot;4&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/kasnyiklaszlo/PycharmProjects/Android_WorkoutTimer/app/src/main/res/layout/activity_settings.xml"
+            line="78"
+            column="9"/>
+    </issue>
+
+</issues>

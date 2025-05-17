@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Workout Timer</string>
+    
+    <!-- Főképernyő szövegei -->
+    <string name="start">Start</string>
+    <string name="pause">Szünet</string>
+    <string name="resume">Folytatás</string>
+    <string name="reset">Újraindítás</string>
+    <string name="settings">Beállítások</string>
+    <string name="workout">Edzés</string>
+    <string name="rest">Pihenés</string>
+    <string name="current_phase">Jelenlegi fázis:</string>
+    <string name="next_phase">Következő fázis:</string>
+    <string name="round">Kör:</string>
+    <string name="time">Idő:</string>
+    <string name="workout_complete">Gratulálok! Kész vagy!</string>
+    
+    <!-- Beállítások képernyő szövegei -->
+    <string name="workout_duration">Edzés időtartama (másodperc):</string>
+    <string name="rest_duration">Pihenés időtartama (másodperc):</string>
+    <string name="rounds">Körök száma:</string>
+    <string name="save">Mentés</string>
+    <string name="invalid_input">Kérlek adj meg érvényes értékeket!</string>
+</resources> 
