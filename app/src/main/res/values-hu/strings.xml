@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Workout Timer</string>
+    
+    <!-- Főképernyő szövegei -->
+    <string name="start">Start</string>
+    <string name="pause">Szünet</string>
+    <string name="resume">Folytatás</string>
+    <string name="reset">Újraindítás</string>
+    <string name="settings">Beállítások</string>
+    <string name="workout">Edzés</string>
+    <string name="rest">Pihenés</string>
+    <string name="current_phase">Jelenlegi fázis:</string>
+    <string name="next_phase">Következő fázis:</string>
+    <string name="round">Kör:</string>
+    <string name="time">Idő:</string>
+    <string name="workout_complete">Gratulálok! Kész vagy!</string>
+    
+    <!-- Beállítások képernyő szövegei -->
+    <string name="workout_duration">Edzés időtartama (másodperc):</string>
+    <string name="rest_duration">Pihenés időtartama (másodperc):</string>
+    <string name="rounds">Körök száma:</string>
+    <string name="save">Mentés</string>
+    <string name="invalid_input">Kérlek adj meg érvényes értékeket!</string>
+    <string name="sound">Hangjelzés</string>
+    <string name="vibration">Rezgés</string>
+    <string name="feedback_settings">Visszajelzés beállításai</string>
+    <string name="language">Nyelv</string>
+    <string name="hungarian">Magyar</string>
+    <string name="english">Angol</string>
+    
+    <!-- Előzmények képernyő szövegei -->
+    <string name="history">Előzmények</string>
+    <string name="workout_history">Edzés előzmények</string>
+    <string name="statistics">Statisztikák</string>
+    <string name="total_workouts">Összes edzés</string>
+    <string name="total_time">Összes idő</string>
+    <string name="avg_completion">Átl. teljesítés</string>
+    <string name="no_history">Még nincs edzés előzmény</string>
+    <string name="completed">Teljesítve</string>
+    <string name="incomplete">Befejezetlen</string>
+    
+    <!-- Bemelegítés és levezetés -->
+    <string name="warmup">Bemelegítés</string>
+    <string name="cooldown">Levezetés</string>
+    <string name="warmup_duration">Bemelegítés időtartama (másodperc):</string>
+    <string name="cooldown_duration">Levezetés időtartama (másodperc):</string>
+    <string name="enable_warmup">Bemelegítés engedélyezése</string>
+    <string name="enable_cooldown">Levezetés engedélyezése</string>
+</resources>

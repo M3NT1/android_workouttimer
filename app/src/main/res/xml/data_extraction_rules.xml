@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!--
+        This is for Android 12 and above. It allows you to control which files are backed up to the cloud.
+        For more information, see https://developer.android.com/about/versions/12/backup-restore
+        -->
+    </cloud-backup>
+    <device-transfer>
+        <!--
+        This is for Android 12 and above. It allows you to control which files are transferred to a new device.
+        For more information, see https://developer.android.com/about/versions/12/backup-restore
+        -->
+    </device-transfer>
+</data-extraction-rules>

@@ -1,24 +1,49 @@
 <resources>
     <string name="app_name">Workout Timer</string>
     
-    <!-- Főképernyő szövegei -->
+    <!-- Main screen text -->
     <string name="start">Start</string>
-    <string name="pause">Szünet</string>
-    <string name="resume">Folytatás</string>
-    <string name="reset">Újraindítás</string>
-    <string name="settings">Beállítások</string>
-    <string name="workout">Edzés</string>
-    <string name="rest">Pihenés</string>
-    <string name="current_phase">Jelenlegi fázis:</string>
-    <string name="next_phase">Következő fázis:</string>
-    <string name="round">Kör:</string>
-    <string name="time">Idő:</string>
-    <string name="workout_complete">Gratulálok! Kész vagy!</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="reset">Reset</string>
+    <string name="settings">Settings</string>
+    <string name="workout">Workout</string>
+    <string name="rest">Rest</string>
+    <string name="current_phase">Current phase:</string>
+    <string name="next_phase">Next phase:</string>
+    <string name="round">Round:</string>
+    <string name="time">Time:</string>
+    <string name="workout_complete">Congrats! You are done!</string>
     
-    <!-- Beállítások képernyő szövegei -->
-    <string name="workout_duration">Edzés időtartama (másodperc):</string>
-    <string name="rest_duration">Pihenés időtartama (másodperc):</string>
-    <string name="rounds">Körök száma:</string>
-    <string name="save">Mentés</string>
-    <string name="invalid_input">Kérlek adj meg érvényes értékeket!</string>
-</resources> 
+    <!-- Settings screen text -->
+    <string name="workout_duration">Workout duration (seconds):</string>
+    <string name="rest_duration">Rest duration (seconds):</string>
+    <string name="rounds">Number of rounds:</string>
+    <string name="save">Save</string>
+    <string name="invalid_input">Please enter valid values!</string>
+    <string name="sound">Sound signal</string>
+    <string name="vibration">Vibration</string>
+    <string name="feedback_settings">Feedback settings</string>
+    <string name="language">Language</string>
+    <string name="hungarian">Hungarian</string>
+    <string name="english">English</string>
+    
+    <!-- History screen text -->
+    <string name="history">History</string>
+    <string name="workout_history">Workout History</string>
+    <string name="statistics">Statistics</string>
+    <string name="total_workouts">Total Workouts</string>
+    <string name="total_time">Total Time</string>
+    <string name="avg_completion">Avg Completion</string>
+    <string name="no_history">No workout history yet</string>
+    <string name="completed">Completed</string>
+    <string name="incomplete">Incomplete</string>
+    
+    <!-- Warmup and Cooldown -->
+    <string name="warmup">Warm-up</string>
+    <string name="cooldown">Cool-down</string>
+    <string name="warmup_duration">Warm-up duration (seconds):</string>
+    <string name="cooldown_duration">Cool-down duration (seconds):</string>
+    <string name="enable_warmup">Enable warm-up</string>
+    <string name="enable_cooldown">Enable cool-down</string>
+</resources>
